@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, '../client')))
 
 // Endpoints
 app.get('/js', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.js'))
+    res.sendFile(path.join(__dirname, './client/index.js'))
   })
 
 const port = process.env.PORT || 4444;
