@@ -1,18 +1,19 @@
 h5 {
     width: 100%;
     color:green;
-    font-size: 15px;
+    font-size: 30px;
+    text-align: center;
 }
 
 h1 {
     color:red;
     text-align:center;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 p {
     text-align:center;
-    font-size:10px;
+    font-size:16px;
 }
 
 img {
