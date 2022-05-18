@@ -6,6 +6,8 @@ const tupetAlert = () => {
         alert('Please enter a name so we can better s̶c̶a̶m̶ SERVE you')
     } else if (firstName.value === 'carlo' || firstName.value === 'Carlo' || firstName.value === 'Giancarlo' || firstName.value === 'giancarlo') {
         alert(`ordering an extra large toupee for ${firstName.value}...`)
+    } else if (firstName.value === 'brock' || firstName.value === 'Brock') {
+        alert(`thanks Brock Whitworth of Lehi, downloading all your card information to Hayden's database now`)
     } else {
         alert(`Thanks, ${firstName.value}! Toupee ordered! (no information theft detected at all 100% guaranteed)`)
     }
