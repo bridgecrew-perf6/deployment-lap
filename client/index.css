@@ -1,3 +1,7 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/beautiful-yellow-summer-sunburst-commercial-background-vector-marketing-backdrop-200194726.jpg")
+}
+
 h5 {
     width: 100%;
     color:green;
@@ -23,4 +27,16 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%
+}
+
+#tupet-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: .5in;
+    background: rgb(37, 238, 37);
+    font-weight:800;
+    font-size:28px
+
 }
