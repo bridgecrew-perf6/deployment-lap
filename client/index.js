@@ -1,7 +1,7 @@
 tupetBtn = document.querySelector('#tupet-btn');
 
 const tupetAlert = () => {
-    alert(`Thanks, ${firstName.value}! Tupet ordered! (no information theft detected at all 100% guaranteed)`)
+    alert(`Thanks, ${firstName.value}! Toupee ordered! (no information theft detected at all 100% guaranteed)`)
 }
 
 const userInput = () => {
