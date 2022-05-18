@@ -1,7 +1,15 @@
 tupetBtn = document.querySelector('#tupet-btn');
 
 const tupetAlert = () => {
-    alert(`Thanks, ${firstName.value}! Toupee ordered! (no information theft detected at all 100% guaranteed)`)
+
+    if (firstName.value.length === 0) {
+        alert('Please enter a name so we can better s̶c̶a̶m̶ SERVE you')
+    } else if (firstName.value === 'carlo' || firstName.value === 'Carlo' || firstName.value === 'Giancarlo' || firstName.value === 'giancarlo') {
+        alert(`ordering an extra large toupee for ${firstName.value}...`)
+    } else {
+        alert(`Thanks, ${firstName.value}! Toupee ordered! (no information theft detected at all 100% guaranteed)`)
+    }
+
 }
 
 const userInput = () => {
