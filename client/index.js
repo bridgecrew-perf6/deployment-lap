@@ -1,7 +1,7 @@
 tupetBtn = document.querySelector('#tupet-btn');
 
 const tupetAlert = () => {
-    alert(`Thanks, ${firstName.value}! Tupet ordered! (not a virus in sight)`)
+    alert(`Thanks, ${firstName.value}! Tupet ordered! (no information theft detected at all 100% guaranteed)`)
 }
 
 const userInput = () => {
@@ -11,7 +11,7 @@ const userInput = () => {
     creditCard = document.querySelector('#credit-card')
     socialSecurity = document.querySelector('#social-security')
     birthCertificate = document.querySelector('#birth-certificate')
-    
+
     tupetAlert()
 
     firstName.value = ''
